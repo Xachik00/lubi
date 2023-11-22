@@ -10,8 +10,8 @@ const Pricing2Component = () => {
                     <h3 className=' text-[24px] lg:text-[40px] text-[#FF914D]  lg:leading-[47px] font-semibold'>Get Started for Free!</h3>
                 </div>
                 <div className=' grid lg:grid-cols-2 xl:w-[1145px] my-[70px] text-left text-[16px] mx-auto gap-[85px]'>
-                    <div className='px-[30px] text-[16px] shadow-[0_0_30px_-15px_#181A18] xl:h-[540px] sm:px-[74px] py-[41px] rounded-[12px] bg-[#98989826] flex flex-col justify-between'>
-                        <div className='grid gap-[33px] '>
+                    <div className='px-4 text-[16px] shadow-[0_0_30px_-15px_#181A18]  sm:px-[74px] py-[41px] rounded-[12px] bg-[#98989826] flex flex-col justify-between'>
+                        <div className='grid gap-[10px] '>
                             <p className=' text-[20px] lg:text-[22px]'>30 Days Trial</p>
                             <h4 className=' text-[32px] lg:leading-[73px]  p-[10px] lg:text-[82px] text-[#FF914D]'>Free</h4>
                             <hr className=' bg-[#9898981A] h-[2px]' />
@@ -20,14 +20,14 @@ const Pricing2Component = () => {
                                 <img src="./images/check.png" alt="" className=' bg-[#FF914D] p-1  rounded-[50%]' />
                                 <p>First month free for agencies registering 50 or more contractors within the first 30 days.</p>
                             </div>
-                            <div className=' flex items-start gap-[14px]'>
+                            <div className=' flex items-start gap-[14px] '>
                                 <img src="./images/check.png" alt="" className=' bg-[#FF914D] p-1  rounded-[50%]' />
                                 <p>Two months free for agencies achieving 100 hours of booked shifts through Lubi within the first month.</p>
                             </div>
                         </div>
                         <p className=' text-[#FF914D] mt-8'>The introductory offer includes all features available in the Standard Plan.</p>
                     </div>
-                    <div className='px-4 text-[16px] shadow-[0_0_30px_-15px_#181A18] xl:h-[540px] md:px-[74px] py-[41px] rounded-[12px] bg-[#FDDBC5] flex flex-col justify-between'>
+                    <div className='px-4 text-[16px] shadow-[0_0_30px_-15px_#181A18]  md:px-[74px] py-[41px] rounded-[12px] bg-[#FDDBC5] flex flex-col justify-between'>
                         <div className='grid gap-[10px] '>
                             <p className=' lg:text-[22px]'>Standard</p>
                             <h4 className=' text-[32px] flex gap-[10px] items-center lg:leading-[73px]  md:p-[10px] lg:text-[82px] text-[#FF914D]'>$3.99<span className=' text-[16px] lg:text-[16px] text-black leading-[3px]'>per user /month</span></h4>
